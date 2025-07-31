@@ -1,0 +1,504 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="The personal portfolio of Rennan Lira, a passionate frontend engineer specializing in creating beautiful, interactive, and user-centric digital products." />
+    <meta name="author" content="Rennan Lira">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:title" content="Rennan Lira | Frontend Engineer">
+    <meta property="og:description" content="The personal portfolio of Rennan Lira, a passionate frontend engineer specializing in creating beautiful, interactive, and user-centric digital products.">
+    <meta property="og:image" content="https://picsum.photos/seed/rennan-lira-og/1200/630">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://example.com/">
+    <meta property="twitter:title" content="Rennan Lira | Frontend Engineer">
+    <meta property="twitter:description" content="The personal portfolio of Rennan Lira, a passionate frontend engineer specializing in creating beautiful, interactive, and user-centric digital products.">
+    <meta property="twitter:image" content="https://picsum.photos/seed/rennan-lira-og/1200/630">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+              heading: ['Poppins', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            },
+            colors: {
+              primary: { // Indigo
+                50: '#eef2ff', 100: '#e0e7ff', 200: '#c7d2fe', 300: '#a5b4fc', 400: '#818cf8',
+                500: '#6366f1', 600: '#4f46e5', 700: '#4338ca', 800: '#3730a3', 900: '#312e81', 950: '#1e1b4b',
+              },
+              neutral: { // Zinc
+                50: '#fafafa', 100: '#f4f4f5', 200: '#e4e4e7', 300: '#d4d4d8', 400: '#a1a1aa',
+                500: '#71717a', 600: '#52525b', 700: '#3f3f46', 800: '#27272a', 900: '#18181b', 950: '#09090b',
+              },
+              emerald: { // Green
+                50: '#ecfdf5', 100: '#d1fae5', 200: '#a7f3d0', 300: '#6ee7b7', 400: '#34d399',
+                500: '#10b981', 600: '#059669', 700: '#047857', 800: '#065f46', 900: '#064e3b', 950: '#022c22',
+              },
+              slate: { // Replaces Violet
+                50: '#f8fafc', 100: '#f1f5f9', 200: '#e2e8f0', 300: '#cbd5e1', 400: '#94a3b8',
+                500: '#64748b', 600: '#475569', 700: '#334155', 800: '#1e293b', 900: '#0f172a', 950: '#020617',
+              },
+              rose: { // Replaces Fuchsia
+                50: '#fff1f2', 100: '#ffe4e6', 200: '#fecdd3', 300: '#fda4af', 400: '#fb7185',
+                500: '#f43f5e', 600: '#e11d48', 700: '#be123c', 800: '#9f1239', 900: '#881337', 950: '#4c0519',
+              },
+              amber: { // Amber/Gold
+                50: '#fffbeb', 100: '#fef3c7', 200: '#fde68a', 300: '#fcd34d', 400: '#fbbf24',
+                500: '#f59e0b', 600: '#d97706', 700: '#b45309', 800: '#92400e', 900: '#78350f', 950: '#451a03',
+              },
+              teal: { // Teal for Sciences
+                50: '#f0fdfa', 100: '#ccfbf1', 200: '#99f6e4', 300: '#5eead4', 400: '#2dd4bf',
+                500: '#14b8a6', 600: '#0d9488', 700: '#0f766e', 800: '#115e59', 900: '#134e4a', 950: '#042f2e',
+              },
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.5s ease-out forwards',
+              'slide-in-up': 'slideInUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+              'slide-in-up-fast': 'slideInUp 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+              'slide-out-down': 'slideOutDown 0.25s cubic-bezier(0.7, 0, 0.84, 0) forwards',
+              'fade-in': 'fadeIn 0.4s ease-in-out forwards',
+              'fade-out': 'fadeOut 0.3s ease-in-out forwards',
+              'scale-in': 'scaleIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+              'scale-out': 'scaleOut 0.25s cubic-bezier(0.7, 0, 0.84, 0) forwards',
+              'spin': 'spin 1s linear infinite',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              slideInUp: {
+                '0%': { transform: 'translateY(100%)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideOutDown: {
+                '0%': { transform: 'translateY(0)', opacity: '1' },
+                '100%': { transform: 'translateY(100%)', opacity: '0' },
+              },
+              fadeIn: {
+                from: { opacity: 0 },
+                to: { opacity: 1 },
+              },
+              fadeOut: {
+                from: { opacity: 1 },
+                to: { opacity: 0 },
+              },
+              scaleIn: {
+                'from': { opacity: '0', transform: 'scale(0.95)' },
+                'to': { opacity: '1', transform: 'scale(1)' },
+              },
+              scaleOut: {
+                'from': { opacity: '1', transform: 'scale(1)' },
+                'to': { opacity: '0', transform: 'scale(0.95)' },
+              },
+              spin: {
+                from: { transform: 'rotate(0deg)' },
+                to: { transform: 'rotate(360deg)' },
+              }
+            },
+          },
+        },
+      };
+    </script>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.10.0"
+  }
+}
+</script>
+    <!-- Structured Data -->
+    <script id="structured-data" type="application/ld+json"></script>
+    <style>
+      html.dark {
+        color-scheme: dark;
+      }
+
+      html:not(.dark) {
+        color-scheme: light;
+      }
+      
+      /* --- High-Performance Transitions --- */
+      @keyframes reveal-theme {
+        from { clip-path: circle(0% at var(--reveal-x) var(--reveal-y)); }
+        to { clip-path: circle(150vmax at var(--reveal-x) var(--reveal-y)); }
+      }
+      
+      @keyframes fade-out {
+        to { opacity: 0; }
+      }
+
+      /* --- Theme Toggle Transition --- */
+      /* This ensures the entire page, including the header, transitions as a single, unified layer, */
+      /* fixing any synchronization issues or visual glitches. */
+      ::view-transition-new(root) {
+        /* Faster, more energetic easing for a snappier feel */
+        animation: reveal-theme 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+        will-change: clip-path;
+      }
+      
+      ::view-transition-old(root) {
+        animation: none;
+      }
+
+      /* --- Language Change Transition --- */
+      html.lang-transition::view-transition-old(root) {
+        animation: fade-out 250ms ease-out forwards;
+        will-change: opacity;
+      }
+      html.lang-transition::view-transition-new(root) {
+        /* Faster duration, more energetic easing */
+        animation: reveal-theme 600ms cubic-bezier(0.76, 0, 0.24, 1);
+      }
+      
+      /* --- 3D Out-of-Bounds Profile Picture --- */
+      @keyframes border-rotate {
+        100% { transform: rotate(1turn); }
+      }
+
+      .profile-image-container {
+        position: relative;
+        transition: transform 0.3s ease, filter 0.3s ease;
+      }
+
+      .profile-image-container:hover {
+        transform: scale(1.03);
+        filter: drop-shadow(0 10px 15px var(--shadow-color));
+      }
+
+      .profile-image-background,
+      .profile-image-border,
+      .profile-image-foreground {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 9999px;
+      }
+
+      .profile-image-background {
+        object-fit: cover;
+      }
+
+      .profile-image-border {
+        z-index: 1;
+        inset: -3px; /* Make it a border */
+        background: conic-gradient(
+          from 0deg,
+          var(--gradient-start), var(--gradient-mid), var(--gradient-end), var(--gradient-mid), var(--gradient-start)
+        );
+        animation: border-rotate 4s linear infinite;
+      }
+
+      .profile-image-container:hover .profile-image-border {
+        animation-duration: 2s;
+      }
+
+      .profile-image-foreground {
+        z-index: 2;
+        object-fit: cover;
+        /* This clip-path isolates the head and shoulders of a typical portrait */
+        clip-path: ellipse(45% 40% at 50% 40%);
+        transition: transform 0.3s ease;
+      }
+      
+      .profile-image-container:hover .profile-image-foreground {
+        transform: translateY(-6px);
+      }
+
+      html:not(.dark) {
+        --gradient-start: #6366f1; /* indigo-500 */
+        --gradient-mid:   #4338ca; /* indigo-700 */
+        --gradient-end:   #818cf8; /* indigo-400 */
+        --shadow-color: rgba(67, 56, 202, 0.4);
+        --project-glow-color: rgba(99, 102, 241, 0.5); /* primary-500 */
+        --nav-glow-color: rgba(99, 102, 241, 0.5); /* More subtle glow */
+        --btn-gradient-start: #6366f1; /* primary-500 */
+        --btn-gradient-end: #4f46e5; /* primary-600 */
+        --btn-gradient-start-hover: #4f46e5; /* primary-600 */
+        --btn-gradient-end-hover: #4338ca; /* primary-700 */
+        --shimmer-color: rgba(0, 0, 0, 0.08);
+        --input-border-color: #d4d4d8; /* neutral-300 */
+        --input-focus-color: #6366f1; /* primary-500 */
+        --input-focus-glow: rgba(99, 102, 241, 0.2);
+        --input-label-color: #71717a; /* neutral-500 */
+      }
+
+      html.dark {
+        --gradient-start: #a5b4fc; /* indigo-300 */
+        --gradient-mid:   #6366f1; /* indigo-500 */
+        --gradient-end:   #818cf8; /* indigo-400 */
+        --shadow-color: rgba(99, 102, 241, 0.4);
+        --project-glow-color: rgba(129, 140, 248, 0.6); /* primary-400 */
+        --nav-glow-color: rgba(129, 140, 248, 0.5); /* More subtle glow */
+        --btn-gradient-start: #818cf8; /* primary-400 */
+        --btn-gradient-end: #6366f1; /* primary-500 */
+        --btn-gradient-start-hover: #a5b4fc; /* primary-300 */
+        --btn-gradient-end-hover: #818cf8; /* primary-400 */
+        --shimmer-color: rgba(255, 255, 255, 0.08);
+        --input-border-color: #3f3f46; /* neutral-700 */
+        --input-focus-color: #818cf8; /* primary-400 */
+        --input-focus-glow: rgba(129, 140, 248, 0.2);
+        --input-label-color: #a1a1aa; /* neutral-400 */
+      }
+
+      /* --- Project Highlighting & Tilt --- */
+      .projects-grid {
+        perspective: 2000px;
+      }
+
+      .featured-project-slide {
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      
+      .project-card {
+        position: relative; /* For glare effect */
+        transform-style: preserve-3d;
+        transition: transform 0.3s ease-out, box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        will-change: transform;
+        transform: rotateX(var(--rotate-x, 0deg)) rotateY(var(--rotate-y, 0deg)) scale(var(--scale, 1));
+      }
+
+      .project-card.highlighted, .featured-project-slide.highlighted {
+        transform: translateY(-8px);
+        --scale: 1.02 !important;
+        animation: pulse-glow 4s infinite ease-in-out;
+      }
+
+      /* Glare effect for 3D tilt */
+      .project-card::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: inherit; /* Should match parent's border-radius */
+        background: radial-gradient(
+          800px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+          rgba(255, 255, 255, 0.1),
+          transparent 40%
+        );
+        opacity: 0;
+        transition: opacity 0.3s;
+        pointer-events: none;
+      }
+
+      html.dark .project-card::after {
+        background: radial-gradient(
+          800px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+          rgba(255, 255, 255, 0.05),
+          transparent 40%
+        );
+      }
+
+      .project-card:hover::after {
+        opacity: 1;
+      }
+      
+      @keyframes pulse-glow {
+        0%, 100% {
+          box-shadow: 0 0 16px 2px var(--project-glow-color), 0 0 0 1px var(--project-glow-color);
+        }
+        50% {
+          box-shadow: 0 0 24px 4px var(--project-glow-color), 0 0 0 1px var(--project-glow-color);
+        }
+      }
+
+      /* --- Gradient Buttons --- */
+      .btn-primary-gradient {
+        background-image: linear-gradient(135deg, var(--btn-gradient-start), var(--btn-gradient-end), var(--btn-gradient-start-hover), var(--btn-gradient-end-hover));
+        background-size: 300% 100%;
+        background-position: 0% 0%;
+        transition: background-position 0.4s ease-in-out, transform 0.3s ease-in-out;
+      }
+      .btn-primary-gradient:hover {
+        background-position: 100% 0%;
+      }
+
+      /* --- Nav Link Glow Effect --- */
+      .nav-link-glow-span {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+        height: 20px;
+        background-image: radial-gradient(ellipse 70% 35% at 50% 100%, var(--nav-glow-color), transparent);
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        transform: scale(0.8);
+        z-index: -1;
+      }
+      
+      .group:hover .nav-link-glow-span {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+
+      /* Prevent body scroll when a modal or drawer is open */
+      body.scroll-lock {
+        overflow: hidden;
+      }
+
+      /* --- Wave Reveal Text Animation (Shimmer Wipe) --- */
+      .wave-reveal-text {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        /* The real text is hidden but present for SEO/accessibility */
+        color: transparent; 
+      }
+
+      /* The visible text layer, revealed by a clip-path animation */
+      .wave-reveal-text::after {
+        content: attr(aria-label);
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #27272a; /* neutral-800 */
+        clip-path: inset(0 100% 0 0);
+      }
+      
+      html.dark .wave-reveal-text::after {
+        color: #f4f4f5; /* neutral-100 */
+      }
+      
+      .wave-reveal-text.animate::after {
+        animation: wipe-in 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0.1s forwards;
+      }
+      
+      /* The shimmer that wipes across */
+      .wave-reveal-text::before {
+        content: '';
+        position: absolute;
+        top: -10%;
+        left: 0;
+        width: 40px;
+        height: 120%;
+        background: linear-gradient(90deg, transparent, rgba(161, 161, 170, 0.4), transparent);
+        transform: translateX(-100%) skewX(-20deg);
+      }
+
+      html.dark .wave-reveal-text::before {
+        background: linear-gradient(90deg, transparent, rgba(113, 113, 122, 0.2), transparent);
+      }
+      
+      .wave-reveal-text.animate::before {
+        animation: shimmer 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+      }
+      
+      @keyframes wipe-in {
+        to {
+          clip-path: inset(0 0 0 0);
+        }
+      }
+      
+      @keyframes shimmer {
+        to {
+          transform: translateX(500px) skewX(-20deg);
+        }
+      }
+      
+      /* --- Experience Sparkle Effect --- */
+      @keyframes sparkle-fly-out {
+        from {
+          transform: translate(0, 0) scale(1);
+          opacity: 1;
+        }
+        to {
+          transform: translate(var(--x), var(--y)) scale(0);
+          opacity: 0;
+        }
+      }
+
+      /* --- Shimmer Animation for Image Loading --- */
+      @keyframes shimmer-kf {
+        from { transform: translateX(-100%); }
+        to { transform: translateX(100%); }
+      }
+
+      .shimmer-bg {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .shimmer-bg::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-100%);
+        background: linear-gradient(90deg, 
+          transparent, 
+          var(--shimmer-color), 
+          transparent
+        );
+        animation: shimmer-kf 1.5s infinite;
+      }
+
+      /* --- Floating Label Contact Form --- */
+      .floating-label-group {
+        position: relative;
+      }
+
+      .floating-label-input {
+        border: 2px solid var(--input-border-color);
+        background-color: transparent;
+        border-radius: 0.5rem;
+        padding: 1.5rem 1rem 0.5rem;
+        width: 100%;
+        transition: border-color 0.2s ease-in-out;
+      }
+
+      .floating-label-input:focus {
+        outline: none;
+        border-color: var(--input-focus-color);
+        box-shadow: 0 0 0 3px var(--input-focus-glow);
+      }
+      
+      .floating-label {
+        position: absolute;
+        top: 50%;
+        left: 1rem;
+        transform: translateY(-50%);
+        transition: all 0.2s ease-in-out;
+        pointer-events: none;
+        color: var(--input-label-color);
+      }
+      
+      .floating-label-input:focus ~ .floating-label,
+      .floating-label-input:not(:placeholder-shown) ~ .floating-label {
+        top: 0.5rem;
+        transform: translateY(0);
+        font-size: 0.75rem;
+        font-weight: 500;
+        color: var(--input-focus-color);
+      }
+    </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

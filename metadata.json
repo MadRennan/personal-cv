@@ -1,0 +1,6 @@
+{
+  "name": "Interactive Galaxy CV",
+  "description": "A visually stunning and interactive CV website featuring a dynamic, theme-aware dotted background that subtly animates and reacts to mouse movement.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
