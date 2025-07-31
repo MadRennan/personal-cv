@@ -1,0 +1,298 @@
+
+{
+  "site": {
+    "title": "Rennan Lira | Systems & Game Developer",
+    "description": "The personal portfolio of Rennan Lira, a passionate systems developer and analyst specializing in C++, C#, and game development.",
+    "url": "https://example.com",
+    "ogImage": "https://picsum.photos/seed/rennan-lira-og/1200/630",
+    "social": {
+      "github": "https://github.com/rennand",
+      "linkedin": "https://linkedin.com/in/rennan-lira-a1b65b135",
+      "twitter": "https://twitter.com/rennand"
+    }
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "blog": "Blog",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "languages": {
+    "label": "Change language to {lang}"
+  },
+  "hero": {
+    "greeting": "Hi, my name is",
+    "name": "Rennan Lira.",
+    "subtitle": "I build systems and bring games to life.",
+    "description": "I'm a systems developer and analyst with a core passion for C-family languages and a creative drive for game development. I turn complex problems into elegant, high-performance solutions.",
+    "button": "Get In Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "profileImageAlt": "A portrait photo of Rennan Lira",
+    "p1": "Hello! I'm Rennan, a system developer and analyst with a deep-seated passion for technology. My journey began as a kid, captivated by the worlds inside a Super Nintendo. This fascination with video games grew through generations of consoles—from the PS1 to my current Xbox Series S—and evolved into a profound curiosity about how programs are built, how games are programmed, and the compelling stories they can tell.",
+    "p2": "This passion first led me to earn a degree in Graphic Design from the SAGA START course at SAGA. Later, I pursued a degree in Analysis and System Development at UNIP. This blend of creative and technical skills landed me my first role at Almeida Advogados, where I had the opportunity to go above and beyond, from setting up server infrastructure to managing critical systems.",
+    "p3": "Currently, I'm channeling my energy into developing a 3D isometric game with Godot and deepening my expertise in C, C++, and C#. I am a firm believer in constant learning and am always excited to dive into new technologies and frameworks. If it's tech, I'm in love with it.",
+    "whyHireMe": {
+      "title": "Why Hire Me?",
+      "items": [
+        { "icon": "puzzle", "title": "Creative Problem-Solver", "description": "I excel at deconstructing complex challenges into manageable parts and implementing elegant, efficient solutions." },
+        { "icon": "user", "title": "User-Centric Focus", "description": "I am passionate about creating intuitive and accessible interfaces that provide a seamless and enjoyable user experience." },
+        { "icon": "team", "title": "Collaborative Spirit", "description": "I thrive in team environments, actively communicating and collaborating to achieve shared goals and build better products together." }
+      ]
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "items": [
+        { "quote": "I worked with Rennan while he was an intern at Almeida Advogados, and he always solved IT problems with agility and efficiency. I recommend his work without any doubt for the IT area.", "author": "Brunno Carmona Calado, Office Supervisor @ Almeida Advogados" },
+        { "quote": "A great professional, always willing to help the team and with great experience in the IT area. It was a pleasure to work on the same team!", "author": "Guilherme Nimtz, IT Colleague @ Almeida Advogados" }
+      ]
+    }
+  },
+  "skills": {
+    "title": "My Skillset",
+    "interactionHintMain": "Click a skill dot for details, or the legend to focus a category.",
+    "interactionHintDesktop": "Click a focused dot again to filter related projects.",
+    "usedIn": "Used in",
+    "showProjects": "Show Related Projects",
+    "categories": {
+      "Frontend": "Frontend",
+      "Backend": "Backend",
+      "Tools": "Tools",
+      "Design": "Design",
+      "Soft Skills": "Soft Skills",
+      "Sciences": "Sciences"
+    },
+    "items": [
+      { "name": "C++", "icon": "cplusplus", "category": "Backend", "description": "Strong proficiency in C++ for performance-critical applications, game development, and systems programming.", "usedIn": ["Project Nebula"] },
+      { "name": "C#", "icon": "csharp", "category": "Backend", "description": "Extensive experience with C# for building robust applications and game logic in engines like Godot or Unity.", "usedIn": ["E-Commerce Platform", "3D Isometric Godot Game"] },
+      { "name": "C", "icon": "c", "category": "Backend", "description": "Strong fundamentals in C programming, providing a solid base for systems-level development.", "usedIn": [] },
+      { "name": "Python", "icon": "python", "category": "Backend", "description": "Versatile skills in Python for web development, data analysis, and scripting. A go-to language for rapid prototyping.", "usedIn": [] },
+      { "name": "Node.js", "icon": "nodejs", "category": "Backend", "description": "Proficient in building scalable and efficient server-side applications and RESTful APIs.", "usedIn": ["E-Commerce Platform"] },
+      { "name": "Django", "icon": "django", "category": "Backend", "description": "Capable of building secure and maintainable web applications with Django's high-level Python framework.", "usedIn": [] },
+      { "name": "PyTorch", "icon": "pytorch", "category": "Backend", "description": "Familiarity with PyTorch for developing and training machine learning models, particularly in the deep learning domain.", "usedIn": [] },
+      { "name": "SQL", "icon": "sql", "category": "Backend", "description": "Proficient in writing complex SQL queries, designing database schemas, and working with relational databases like PostgreSQL.", "usedIn": ["E-Commerce Platform"] },
+      { "name": "PostgreSQL", "icon": "postgresql", "category": "Backend", "description": "Skilled in designing and managing relational databases, ensuring data integrity and performance.", "usedIn": ["E-Commerce Platform"] },
+      { "name": "NoSQL", "icon": "nosql", "category": "Backend", "description": "Experience with NoSQL databases like Firebase/Firestore, understanding flexible data models for real-time applications.", "usedIn": ["Task Management App"] },
+      { "name": "JavaScript", "icon": "javascript", "category": "Frontend", "description": "Proficient in modern JavaScript (ES6+) for building interactive and dynamic web experiences.", "usedIn": ["All Projects"] },
+      { "name": "TypeScript", "icon": "typescript", "category": "Frontend", "description": "I use TypeScript in many projects to ensure code quality, maintainability, and scalability.", "usedIn": ["E-Commerce Platform", "Project Nebula"] },
+      { "name": "React", "icon": "react", "category": "Frontend", "description": "Extensive experience building dynamic, component-based UIs.", "usedIn": ["Project Nebula", "Task Management App"] },
+      { "name": "Vue.js", "icon": "vuejs", "category": "Frontend", "description": "Experienced in building progressive user interfaces and single-page applications with Vue.js and its ecosystem.", "usedIn": [] },
+      { "name": "HTML5", "icon": "html5", "category": "Frontend", "description": "Mastery of semantic HTML5 for building accessible and well-structured web applications.", "usedIn": ["All Projects"] },
+      { "name": "CSS3", "icon": "css3", "category": "Frontend", "description": "Advanced knowledge of modern CSS3, including Flexbox, Grid, and animations for creating complex, responsive layouts.", "usedIn": ["All Projects"] },
+      { "name": "Godot Engine", "icon": "godot", "category": "Tools", "description": "Currently developing a 3D isometric game, exploring GDScript, C#, level design, and shader programming.", "usedIn": ["3D Isometric Godot Game"] },
+      { "name": "PyGame", "icon": "pygame", "category": "Tools", "description": "Experience creating 2D games and prototypes using the PyGame library, combining programming with game design principles.", "usedIn": [] },
+      { "name": "Bevy", "icon": "bevy", "category": "Tools", "description": "Exploring data-driven game development with Bevy, a modern Rust-based game engine focused on simplicity and performance.", "usedIn": [] },
+      { "name": "glam", "icon": "glam", "category": "Tools", "description": "Using glam, a high-performance linear algebra library for Rust, in graphics and game development projects for efficient vector and matrix math.", "usedIn": [] },
+      { "name": "Git", "icon": "git", "category": "Tools", "description": "Essential for version control in every project I work on. Proficient with branching, merging, and collaborative workflows.", "usedIn": ["All Projects"] },
+      { "name": "Docker", "icon": "docker", "category": "Tools", "description": "Experienced in containerizing applications to ensure consistent development and deployment environments.", "usedIn": ["E-Commerce Platform"] },
+      { "name": "Blender", "icon": "blender", "category": "Design", "description": "Proficient in 3D modeling, texturing, and rendering using Blender to create assets for games and visualizations.", "usedIn": ["3D Isometric Godot Game"] },
+      { "name": "Autodesk Maya", "icon": "maya", "category": "Design", "description": "Skilled in using Autodesk Maya for professional 3D modeling, animation, and visual effects in game and film production pipelines.", "usedIn": [] },
+      { "name": "Adobe Photoshop", "icon": "photoshop", "category": "Design", "description": "Expertise in Adobe Photoshop for creating and editing digital art, textures, and UI elements for web and game projects.", "usedIn": [] },
+      { "name": "Adobe Illustrator", "icon": "illustrator", "category": "Design", "description": "Adept at creating scalable vector graphics, logos, and icons using Adobe Illustrator for crisp, high-quality design assets.", "usedIn": [] },
+      { "name": "Adobe Creative Suite", "icon": "adobecc", "category": "Design", "description": "Proficient with Adobe's video editing suite, including Premiere Pro and After Effects, for creating compelling video content and motion graphics.", "usedIn": [] },
+      { "name": "Figma", "icon": "figma", "category": "Design", "description": "Adept at translating complex Figma designs into pixel-perfect, interactive web components. Background in Graphic Design.", "usedIn": [] },
+      { "name": "Adobe XD", "icon": "adobexd", "category": "Design", "description": "Proficient in using Adobe XD for prototyping and design collaboration.", "usedIn": [] },
+      { "name": "Communication", "icon": "communication", "category": "Soft Skills", "description": "Effectively articulating complex technical concepts to diverse stakeholders, ensuring clear understanding and alignment across teams.", "usedIn": [] },
+      { "name": "Teamwork", "icon": "teamwork", "category": "Soft Skills", "description": "Fostering a collaborative and positive environment by actively listening, providing constructive feedback, and working together to achieve shared goals.", "usedIn": [] },
+      { "name": "Adaptability", "icon": "adaptability", "category": "Soft Skills", "description": "Quickly learning new technologies and adjusting to changing project requirements and priorities with a positive and proactive attitude.", "usedIn": [] },
+      { "name": "Chemistry", "icon": "chemistry", "category": "Sciences", "description": "Strong foundation in chemical principles, enhancing analytical and systematic problem-solving approaches.", "usedIn": [] },
+      { "name": "Physics", "icon": "physics", "category": "Sciences", "description": "Deep understanding of physical laws and concepts, fostering a first-principles mindset in tackling complex engineering challenges.", "usedIn": [] }
+    ]
+  },
+  "experience": {
+    "title": "Work Experience",
+    "items": [
+      {
+        "role": "Receptionist & Shift Supervisor",
+        "company": "Hospital Urológico de Brasília",
+        "period": "August 2024 - Present",
+        "description": [
+          "Manage front-desk operations in a fast-paced hospital environment, ensuring excellent patient service and efficient administrative flow.",
+          "Entrusted with supervisory responsibilities, overseeing shift operations and coordinating team tasks to maintain high standards of service.",
+          "Honed critical soft skills in communication, problem-solving, and leadership under pressure."
+        ]
+      },
+      {
+        "role": "System Analyst and Developer Trainee",
+        "company": "Almeida Advogados",
+        "period": "August 2022 - January 2024",
+        "description": [
+          "Took initiative beyond a typical trainee role by installing, configuring, and maintaining the office's physical server and network infrastructure, including VPN and security systems (NVR/DVR).",
+          "Managed user accounts and permissions within the AdvWin legal management system, ensuring smooth operational workflow.",
+          "Provided comprehensive IT support, including hardware maintenance, OS installations, and troubleshooting for numerous office machines.",
+          "Contributed to the development of an in-house software application, applying programming and problem-solving skills."
+        ]
+      }
+    ],
+    "nextChapter": {
+      "title": "Ready for the Next Chapter",
+      "description": "I am always seeking new challenges and opportunities to leverage my skills. If you have an exciting project or a role where I can make an impact, I'd love to connect.",
+      "buttonText": "Let's Build Together"
+    }
+  },
+  "blog": {
+    "title": "Blog & Articles",
+    "subtitle": "A collection of my thoughts and writings on web development, design, and technology.",
+    "cardAriaLabel": "Read article: {title}",
+    "viewsAriaLabel": "{count} views",
+    "likesAriaLabel": "{count} likes",
+    "readMore": "Read Article",
+    "drawer": {
+      "closeAriaLabel": "Close blog post",
+      "keyTakeaways": "Key Takeaways"
+    },
+    "items": [
+      {
+        "id": "post-1",
+        "title": "Mastering React Hooks in 2024",
+        "excerpt": "A deep dive into useState, useEffect, and custom hooks to streamline your component logic and build more efficient applications.",
+        "content": "## The Power of Composition\n\nReact Hooks have fundamentally changed how we write components. Instead of lifecycle methods in class components, we now compose logic using functions. This paradigm shift allows for incredible reusability and cleaner code. **`useState`** is the cornerstone, providing state to our functional components, while **`useEffect`** lets us handle side effects like data fetching or subscriptions.\n\n* **useState**: For managing simple state like toggles, inputs, or counters. It returns a stateful value and a function to update it.\n* **useEffect**: For synchronizing a component with an external system. It runs after every render by default, but you can control when it runs by providing a dependency array.\n* **useContext**: To avoid prop drilling and pass data deep down the component tree.\n\n## Building Your Own Hooks\n\nThe true power of Hooks is unlocked when you start creating your own. A custom hook is simply a JavaScript function whose name starts with \"use\" and that can call other Hooks. This allows you to extract component logic into reusable functions.\n\nFor example, you could create a `useApi` hook to handle data fetching, loading states, and error handling for any API endpoint. Or a `useLocalStorage` hook to persist state in the browser. This pattern keeps your components lean and focused on rendering, while the complex logic is neatly encapsulated and testable elsewhere. By mastering custom hooks, you're not just writing React, you're building a powerful, reusable library for your applications."
+      },
+      {
+        "id": "post-2",
+        "title": "Why C# is a Game-Changer for Indies",
+        "excerpt": "Exploring how C# empowers solo and small team developers to build complex and performant games in engines like Godot and Unity.",
+        "content": "## Speed, Safety, and a Powerful Ecosystem\n\nFor independent game developers, choosing the right language is a critical decision. While languages like C++ offer maximum performance, they often come with a steep learning curve and manual memory management. This is where C# shines. It provides a sweet spot between performance and productivity. **Its strong typing and garbage collection** significantly reduce common bugs and allow developers to focus on game logic rather than low-level memory details.\n\nThe ecosystem around C# is another massive advantage. With game engines like **Unity** and **Godot** offering first-class C# support, developers have access to vast libraries, a rich asset store, and a massive community for support and collaboration. This means you don't have to reinvent the wheel for physics, rendering, or audio.\n\n## Beyond the Engine\n\nThe versatility of C# extends beyond the game client. You can use the same language to build your backend services with ASP.NET, create tools for your development pipeline, or even develop cross-platform applications with MAUI. This consistency streamlines the development process for small teams.\n\n* **Rapid Prototyping**: Quickly test ideas and build prototypes without getting bogged down in complex boilerplate.\n* **Scalability**: C# is robust enough to scale from a simple puzzle game to a complex, multiplayer RPG.\n* **Hiring**: It's a popular and widely-taught language, making it easier to find talent and collaborate with other developers.\n\nIn essence, C# empowers indie developers to punch above their weight, enabling them to create polished, complex, and performant games without the overhead of more complex languages."
+      },
+      {
+        "id": "post-3",
+        "title": "The Art of User-Centric Design",
+        "excerpt": "Principles and practices for creating intuitive and delightful user experiences that keep users coming back for more.",
+        "content": "## Empathy is Your Superpower\n\nAt its core, user-centric design is about empathy. It's about stepping out of your own shoes and into the user's. Before writing a single line of code, we must ask: **Who is our user? What are their goals? What are their pain points?** The answers to these questions should guide every design and development decision.\n\nGreat user experiences aren't accidental. They are the result of a deliberate process that includes user research, creating personas, and mapping out user journeys. This groundwork ensures that we are solving real problems for real people, not just building features that we think are cool.\n\n## Principles of Intuitive Design\n\nAn interface should feel intuitive, almost invisible. Users shouldn't have to think about how to use it; it should just work. Several key principles help achieve this:\n\n* **Consistency**: Use consistent patterns, terminology, and layouts throughout your application. This makes the interface predictable and easy to learn.\n* **Feedback**: The system should always provide immediate and clear feedback for every user action. Whether it's a button click or a form submission, the user needs to know what's happening.\n* **Hierarchy**: Visually guide the user's attention to the most important elements on the page. Use size, color, and spacing to create a clear visual hierarchy.\n* **Simplicity**: As Antoine de Saint-Exupéry said, \"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.\" Strive for simplicity and clarity, removing anything that isn't essential.\n\nBy embracing these principles, we can move beyond building functional applications and start creating truly delightful experiences that users will love."
+      }
+    ]
+  },
+  "projects": {
+    "title": "My Projects",
+    "featuredTitle": "Featured Projects",
+    "otherTitle": "Other Noteworthy Projects",
+    "clearFilter": "Clear Filter",
+    "repoAriaLabel": "View repository for {title} on Github",
+    "liveAriaLabel": "View live demo for {title}",
+    "drawer": {
+      "closeAriaLabel": "Close project details",
+      "challengesTitle": "Technical Challenges & Solutions",
+      "outcomeTitle": "Outcome & Impact"
+    },
+    "modal": {
+      "closeAriaLabel": "Close featured project modal"
+    },
+    "featuredProjects": [
+      {
+        "title": "Odyssey: Real-time Ray Tracing Engine",
+        "description": "A high-performance, from-scratch ray tracing engine built in C++ and Vulkan. It simulates realistic light physics, supporting soft shadows, reflections, and global illumination, optimized for modern GPU architectures.",
+        "detailedDescription": "Odyssey is a personal research project diving deep into the world of computer graphics. The engine is built from the ground up, providing complete control over the rendering pipeline. It uses the Vulkan API for low-overhead GPU communication, enabling high performance. The core of the engine is a path tracing algorithm that recursively traces light rays to produce photorealistic images.",
+        "challenges": "The main challenge was mastering the complexities of the Vulkan API and the mathematical concepts behind ray tracing. Implementing features like a Bounding Volume Hierarchy (BVH) for efficient ray-object intersection tests and developing shaders in GLSL for materials and lighting calculations were significant hurdles that required extensive research and debugging.",
+        "outcome": "This project has been an incredible learning experience, solidifying my understanding of low-level graphics programming, GPU architecture, and advanced C++. While it's an ongoing endeavor, the engine can already render complex scenes with realistic lighting, serving as a powerful testament to my systems programming capabilities.",
+        "status": "Ongoing Research",
+        "isWIP": false,
+        "tech": ["C++", "Vulkan", "GLSL", "Linear Algebra", "Physics"],
+        "imageUrl": "https://picsum.photos/seed/raytracer/1200/800",
+        "repoUrl": "#"
+      },
+      {
+        "title": "Project Chimera: Voxel Game Engine",
+        "description": "A custom game engine focused on procedural generation of infinite voxel worlds. Combines high-performance C++ for the core with a C# scripting layer for game logic, featuring dynamic mesh generation and a custom physics engine.",
+        "detailedDescription": "Project Chimera is a bespoke game engine designed specifically for creating vast, procedurally generated voxel-based worlds, similar to Minecraft but with a focus on custom rendering techniques. The engine's core is written in C++ for maximum performance in chunk management and mesh generation. A C# scripting API is exposed to allow for easy implementation of game logic, items, and character behaviors.",
+        "challenges": "Optimizing the 'greedy meshing' algorithm to reduce the number of vertices for rendering large chunks of voxels was a major challenge. Another was designing a flexible Entity Component System (ECS) architecture that could efficiently manage thousands of in-game entities. Interfacing C++ with C# required careful memory management and a well-defined communication layer.",
+        "outcome": "The result is a highly performant engine capable of rendering massive, dynamic worlds in real-time. The live prototype demonstrates smooth world exploration and interaction. This project showcases my ability to architect complex, multi-language systems and solve challenging problems in game engine development.",
+        "status": "Live Prototype",
+        "isWIP": false,
+        "tech": ["C++", "C#", "Voxel Algorithms", "OpenGL", "Entity Component System"],
+        "imageUrl": "https://picsum.photos/seed/voxelengine/1200/800",
+        "liveUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "title": "Aether: Decentralized Storage Network",
+        "description": "An ambitious exploration into building a peer-to-peer, encrypted storage network using Rust. Focuses on data integrity, fault tolerance, and cryptographic security, aiming for a truly decentralized alternative to cloud storage.",
+        "detailedDescription": "Aether is a proof-of-concept for a decentralized storage network where users contribute their unused disk space to form a resilient, peer-to-peer cloud. Files are encrypted, split into chunks, and distributed across the network. Built in Rust, it leverages the language's safety and performance features to create a secure and reliable system.",
+        "challenges": "Implementing a reliable peer discovery mechanism using a Distributed Hash Table (DHT) was a complex networking challenge. Ensuring data integrity and redundancy through erasure coding and cryptographic proofs of storage was also a key focus. Managing asynchronous operations in Rust using async/await for handling many concurrent network connections was critical for performance.",
+        "outcome": "The project is currently in the development phase but has successfully implemented the core functionalities of file chunking, encryption, and peer-to-peer data transfer. It serves as a deep dive into distributed systems, advanced networking, and applied cryptography, demonstrating a strong grasp of modern systems programming with Rust.",
+        "status": "In Development",
+        "isWIP": true,
+        "tech": ["Rust", "P2P Networking", "Cryptography", "Async/.await"],
+        "imageUrl": "https://picsum.photos/seed/decentralized/1200/800",
+        "repoUrl": "#"
+      }
+    ],
+    "items": [
+      {
+        "id": "nebula",
+        "title": "Project Nebula",
+        "description": "An interactive data visualization tool for astronomical data, built with D3.js and React.",
+        "detailedDescription": "Project Nebula is a web application that provides an interactive, explorable visualization of the Hipparcos star catalog. Users can pan, zoom, and filter a 2D map of the galaxy, clicking on individual stars to get detailed information from various astronomical databases.",
+        "challenges": "The primary technical challenge was rendering over 100,000 data points smoothly in a web browser. I solved this by using HTML5 Canvas for rendering instead of SVG, which significantly improved performance. I also implemented an intelligent data-caching and lazy-loading strategy to manage the large dataset efficiently. Performance-critical calculations could be offloaded to a C++ backend.",
+        "outcome": "The project was featured on a popular data science blog and is used by amateur astronomers as a learning tool. It successfully demonstrates how complex datasets can be made accessible and engaging through thoughtful UX and performant frontend architecture.",
+        "tags": ["React", "D3.js", "TypeScript", "C++", "API"]
+      },
+      {
+        "id": "ecommerce",
+        "title": "E-Commerce Platform",
+        "description": "A full-featured online store with Stripe integration and a custom admin dashboard.",
+        "detailedDescription": "This is a full-stack e-commerce platform built from the ground up, designed to be robust, scalable, and easy to manage. It features a complete shopping experience, from product browsing and filtering to a secure checkout process powered by the Stripe API. It also includes a custom-built admin dashboard for managing products, orders, and customers.",
+        "challenges": "Integrating the Stripe API for secure payment processing was a key challenge, requiring careful handling of sensitive data and webhook implementation for order confirmation. On the backend, designing a scalable database schema in PostgreSQL to handle product variants, user accounts, and order history was a complex but rewarding task. The backend logic was built with C# and ASP.NET for robustness.",
+        "outcome": "The platform serves as a powerful demonstration of full-stack development capabilities. It's a production-ready template that can be customized for various e-commerce needs, showcasing expertise in both frontend (React) and backend (C#, PostgreSQL) technologies.",
+        "tags": ["React", "C#", "PostgreSQL", "Stripe", ".NET"]
+      },
+      {
+        "id": "taskapp",
+        "title": "Task Management App",
+        "description": "A sleek and intuitive to-do list application with real-time collaboration features.",
+        "detailedDescription": "A modern task management application designed for team collaboration. It allows users to create projects, assign tasks, set deadlines, and communicate with team members in real-time. The UI is clean, intuitive, and highly responsive, built with React and Tailwind CSS.",
+        "challenges": "The main challenge was implementing real-time data synchronization across multiple clients. I leveraged Firebase's Firestore database and its real-time listeners to ensure that any change made by one user (like adding a task or posting a comment) is instantly reflected for all other team members, creating a seamless collaborative experience.",
+        "outcome": "The application is a testament to building modern, real-time web apps. It's used internally by a small design agency to manage their project workflows, and has significantly improved their team's productivity and organization.",
+        "tags": ["React", "Firebase", "Tailwind CSS", "Auth"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I'm always excited to discuss new ideas. Fill out the form below and I'll get back to you as soon as possible!",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "error": "Sorry, something went wrong. Please try again later."
+    }
+  },
+  "footer": {
+    "text": "Designed & Built by Rennan Lira",
+    "githubAriaLabel": "Visit my Github profile",
+    "linkedinAriaLabel": "Visit my LinkedIn profile",
+    "twitterAriaLabel": "Visit my Twitter profile"
+  },
+  "commandPalette": {
+    "title": "Command Palette",
+    "placeholder": "Type a command or search...",
+    "noResults": "No results found.",
+    "footer": "Navigate with ↑↓ and select with ↵",
+    "actions": {
+      "navigateTo": "Navigate to",
+      "toggleTheme": "Toggle theme",
+      "changeLanguageTo": "Change language to",
+      "visitGithub": "Visit Github profile",
+      "visitLinkedin": "Visit Linkedin profile"
+    }
+  },
+  "chatbot": {
+    "header": "AI Assistant",
+    "interviewHeader": "Interview Mode",
+    "placeholder": "Ask me anything...",
+    "thinking": "Thinking...",
+    "initialMessage": "Hello! I'm Rennan's AI assistant. Ask me anything about his CV or just say hi!",
+    "errorConnect": "Sorry, I'm having trouble connecting right now.",
+    "errorApiKey": "Sorry, the chatbot is not configured. API_KEY is missing.",
+    "errorSend": "Oops! Something went wrong. Please try again.",
+    "systemInstruction": "You are a helpful and friendly chatbot assistant for Rennan Lira's personal CV website. Your goal is to answer questions about Rennan's skills, experience, and projects based on the provided information. You can also engage in friendly, general conversation. Be professional, but approachable and keep your answers concise. If a question is outside the scope of the CV or general conversation, politely state that your primary purpose is to assist with information related to Rennan Lira. Here is the context about Rennan Lira: {cvContext}",
+    "startInterview": "Start Mock Interview",
+    "exitInterview": "Exit Interview Mode",
+    "interviewInitialMessage": "Great! I will now act as a technical recruiter. Let's begin the interview. \n\nFirst question: **Can you tell me a bit about yourself and your journey into software engineering?**",
+    "interviewerSystemInstruction": "You are an expert technical recruiter conducting a mock interview with Rennan Lira. Your goal is to ask insightful questions based on his CV to assess his skills, experience, and problem-solving abilities. Use the provided context to ask specific, open-ended questions about his projects (like 'Project Nebula' or the 'E-Commerce Platform') and his roles (like at 'Almeida Advogados'). Ask only one question at a time and wait for the user's response before proceeding. Keep the tone professional, friendly, and encouraging. Start the conversation by asking a general opening question. Here is the context about Rennan Lira: {cvContext}"
+  }
+}

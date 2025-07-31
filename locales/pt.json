@@ -1,0 +1,298 @@
+
+{
+  "site": {
+    "title": "Rennan Lira | Desenvolvedor de Sistemas e Jogos",
+    "description": "O portfólio pessoal de Rennan Lira, um apaixonado desenvolvedor e analista de sistemas especializado em C++, C# e desenvolvimento de jogos.",
+    "url": "https://example.com",
+    "ogImage": "https://picsum.photos/seed/rennan-lira-og/1200/630",
+    "social": {
+      "github": "https://github.com/rennand",
+      "linkedin": "https://linkedin.com/in/rennan-lira-a1b65b135",
+      "twitter": "https://twitter.com/rennand"
+    }
+  },
+  "nav": {
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "blog": "Blog",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "languages": {
+    "label": "Mudar idioma para {lang}"
+  },
+  "hero": {
+    "greeting": "Olá, meu nome é",
+    "name": "Rennan Lira.",
+    "subtitle": "Eu construo sistemas e dou vida a jogos.",
+    "description": "Sou um desenvolvedor e analista de sistemas com uma paixão central por linguagens da família C e um impulso criativo para o desenvolvimento de jogos. Eu transformo problemas complexos em soluções elegantes e de alta performance.",
+    "button": "Entre em Contato"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "profileImageAlt": "Uma foto de retrato de Rennan Lira",
+    "p1": "Olá! Sou Rennan, um desenvolvedor e analista de sistemas com uma paixão profunda por tecnologia. Minha jornada começou quando criança, cativado pelos mundos dentro de um Super Nintendo. Essa fascinação por videogames cresceu através de gerações de consoles — do PS1 ao meu atual Xbox Series S — e evoluiu para uma curiosidade profunda sobre como os programas são construídos, como os jogos são programados e as histórias envolventes que eles podem contar.",
+    "p2": "Essa paixão me levou primeiro a obter um diploma em Design Gráfico pelo curso SAGA START na SAGA. Mais tarde, cursei Análise e Desenvolvimento de Sistemas na UNIP. Essa mistura de habilidades criativas e técnicas me rendeu meu primeiro emprego na Almeida Advogados, onde tive a oportunidade de ir além, desde a configuração de infraestrutura de servidores até a gestão de sistemas críticos.",
+    "p3": "Atualmente, estou canalizando minha energia no desenvolvimento de um jogo isométrico 3D com Godot e aprofundando minha expertise em C, C++ e C#. Acredito firmemente no aprendizado constante e estou sempre animado para mergulhar em novas tecnologias e frameworks. Se é tecnologia, sou apaixonado por ela.",
+    "whyHireMe": {
+      "title": "Por Que Me Contratar?",
+      "items": [
+        { "icon": "puzzle", "title": "Solucionador Criativo de Problemas", "description": "Eu me destaco em desconstruir desafios complexos em partes gerenciáveis e implementar soluções elegantes e eficientes." },
+        { "icon": "user", "title": "Foco Centrado no Usuário", "description": "Sou apaixonado por criar interfaces intuitivas e acessíveis que proporcionam uma experiência de usuário fluida e agradável." },
+        { "icon": "team", "title": "Espírito Colaborativo", "description": "Eu prospero em ambientes de equipe, comunicando e colaborando ativamente para alcançar objetivos comuns e construir produtos melhores juntos." }
+      ]
+    },
+    "testimonials": {
+      "title": "Depoimentos",
+      "items": [
+        { "quote": "Trabalhei com o Rennan enquanto ele fez estágio no Almeida Advogados e sempre resolveu os problemas de TI com agilidade e eficiência. Recomendo seu trabalho sem dúvida alguma para a área de TI.", "author": "Brunno Carmona Calado, Supervisor de Escritório @ Almeida Advogados" },
+        { "quote": "Ótimo profissional, sempre disposto a ajudar o time e uma ótima experiência na área de TI. Foi um prazer trabalhar no mesmo time que você!", "author": "Guilherme Nimtz, Colega de TI @ Almeida Advogados" }
+      ]
+    }
+  },
+  "skills": {
+    "title": "Meu Conjunto de Habilidades",
+    "interactionHintMain": "Clique em um ponto de habilidade para detalhes, ou na legenda para focar uma categoria.",
+    "interactionHintDesktop": "Clique novamente em um ponto focado para filtrar projetos relacionados.",
+    "usedIn": "Usado em",
+    "showProjects": "Mostrar Projetos Relacionados",
+    "categories": {
+      "Frontend": "Frontend",
+      "Backend": "Backend",
+      "Tools": "Ferramentas",
+      "Design": "Design",
+      "Soft Skills": "Soft Skills",
+      "Sciences": "Ciências"
+    },
+    "items": [
+      { "name": "C++", "icon": "cplusplus", "category": "Backend", "description": "Forte proficiência em C++ para aplicações de performance crítica, desenvolvimento de jogos e programação de sistemas.", "usedIn": ["Projeto Nebulosa"] },
+      { "name": "C#", "icon": "csharp", "category": "Backend", "description": "Vasta experiência com C# para construir aplicações robustas e lógica de jogos em motores como Godot ou Unity.", "usedIn": ["Plataforma de E-Commerce", "Jogo Isométrico 3D com Godot"] },
+      { "name": "C", "icon": "c", "category": "Backend", "description": "Fortes fundamentos em programação C, fornecendo uma base sólida para o desenvolvimento a nível de sistemas.", "usedIn": [] },
+      { "name": "Python", "icon": "python", "category": "Backend", "description": "Habilidades versáteis em Python para desenvolvimento web, análise de dados e scripting. Uma linguagem de referência para prototipagem rápida.", "usedIn": [] },
+      { "name": "Node.js", "icon": "nodejs", "category": "Backend", "description": "Proficiente na construção de aplicações de servidor e APIs RESTful escaláveis e eficientes.", "usedIn": ["Plataforma de E-Commerce"] },
+      { "name": "Django", "icon": "django", "category": "Backend", "description": "Capaz de construir aplicações web seguras e de fácil manutenção com o framework de alto nível do Python, Django.", "usedIn": [] },
+      { "name": "PyTorch", "icon": "pytorch", "category": "Backend", "description": "Familiaridade com PyTorch para desenvolver e treinar modelos de machine learning, particularmente no domínio de deep learning.", "usedIn": [] },
+      { "name": "SQL", "icon": "sql", "category": "Backend", "description": "Proficiente em escrever consultas SQL complexas, projetar esquemas de banco de dados e trabalhar com bancos de dados relacionais como o PostgreSQL.", "usedIn": ["Plataforma de E-Commerce"] },
+      { "name": "PostgreSQL", "icon": "postgresql", "category": "Backend", "description": "Habilidoso no design e gerenciamento de bancos de dados relacionais, garantindo a integridade dos dados e o desempenho.", "usedIn": ["Plataforma de E-Commerce"] },
+      { "name": "NoSQL", "icon": "nosql", "category": "Backend", "description": "Experiência com bancos de dados NoSQL como Firebase/Firestore, compreendendo modelos de dados flexíveis para aplicações em tempo real.", "usedIn": ["App de Gerenciamento de Tarefas"] },
+      { "name": "JavaScript", "icon": "javascript", "category": "Frontend", "description": "Proficiente em JavaScript moderno (ES6+) para construir experiências web interativas e dinâmicas.", "usedIn": ["Todos os Projetos"] },
+      { "name": "TypeScript", "icon": "typescript", "category": "Frontend", "description": "Eu uso TypeScript em muitos projetos para garantir a qualidade, manutenibilidade e escalabilidade do código.", "usedIn": ["Plataforma de E-Commerce", "Projeto Nebulosa"] },
+      { "name": "React", "icon": "react", "category": "Frontend", "description": "Vasta experiência na construção de UIs dinâmicas e baseadas em componentes.", "usedIn": ["Projeto Nebulosa", "App de Gerenciamento de Tarefas"] },
+      { "name": "Vue.js", "icon": "vuejs", "category": "Frontend", "description": "Experiência na construção de interfaces de usuário progressivas e aplicações de página única (SPAs) com Vue.js e seu ecossistema.", "usedIn": [] },
+      { "name": "HTML5", "icon": "html5", "category": "Frontend", "description": "Maestria em HTML5 semântico para construir aplicações web acessíveis e bem estruturadas.", "usedIn": ["Todos os Projetos"] },
+      { "name": "CSS3", "icon": "css3", "category": "Frontend", "description": "Conhecimento avançado de CSS3 moderno, incluindo Flexbox, Grid e animações para criar layouts complexos e responsivos.", "usedIn": ["Todos os Projetos"] },
+      { "name": "Godot Engine", "icon": "godot", "category": "Tools", "description": "Atualmente desenvolvendo um jogo isométrico 3D, explorando GDScript, C#, design de níveis e programação de shaders.", "usedIn": ["Jogo Isométrico 3D com Godot"] },
+      { "name": "PyGame", "icon": "pygame", "category": "Tools", "description": "Experiência na criação de jogos 2D e protótipos usando a biblioteca PyGame, combinando programação com princípios de design de jogos.", "usedIn": [] },
+      { "name": "Bevy", "icon": "bevy", "category": "Tools", "description": "Explorando o desenvolvimento de jogos orientado a dados com Bevy, um moderno motor de jogos baseado em Rust focado em simplicidade e performance.", "usedIn": [] },
+      { "name": "glam", "icon": "glam", "category": "Tools", "description": "Usando glam, uma biblioteca de álgebra linear de alta performance para Rust, em projetos de gráficos e desenvolvimento de jogos para matemática vetorial e matricial eficiente.", "usedIn": [] },
+      { "name": "Git", "icon": "git", "category": "Tools", "description": "Essencial para o controle de versão em todos os projetos em que trabalho. Proficiente com ramificação, fusão e fluxos de trabalho colaborativos.", "usedIn": ["Todos os Projetos"] },
+      { "name": "Docker", "icon": "docker", "category": "Tools", "description": "Experiente em containerizar aplicações para garantir ambientes de desenvolvimento e implantação consistentes.", "usedIn": ["Plataforma de E-Commerce"] },
+      { "name": "Blender", "icon": "blender", "category": "Design", "description": "Proficiente em modelagem 3D, texturização e renderização usando o Blender para criar recursos para jogos e visualizações.", "usedIn": ["Jogo Isométrico 3D com Godot"] },
+      { "name": "Autodesk Maya", "icon": "maya", "category": "Design", "description": "Habilidoso no uso do Autodesk Maya para modelagem 3D profissional, animação e efeitos visuais em pipelines de produção de jogos e filmes.", "usedIn": [] },
+      { "name": "Adobe Photoshop", "icon": "photoshop", "category": "Design", "description": "Expertise em Adobe Photoshop para criar e editar arte digital, texturas e elementos de UI para projetos web e de jogos.", "usedIn": [] },
+      { "name": "Adobe Illustrator", "icon": "illustrator", "category": "Design", "description": "Apto a criar gráficos vetoriais escaláveis, logotipos e ícones usando o Adobe Illustrator para recursos de design nítidos e de alta qualidade.", "usedIn": [] },
+      { "name": "Adobe Creative Suite", "icon": "adobecc", "category": "Design", "description": "Proficiente com o pacote de edição de vídeo da Adobe, incluindo Premiere Pro e After Effects, para criar conteúdo de vídeo e motion graphics atraentes.", "usedIn": [] },
+      { "name": "Figma", "icon": "figma", "category": "Design", "description": "Apto a traduzir designs complexos do Figma em componentes web interativos e perfeitos ao pixel. Formação em Design Gráfico.", "usedIn": [] },
+      { "name": "Adobe XD", "icon": "adobexd", "category": "Design", "description": "Proficiente no uso do Adobe XD para prototipagem e colaboração de design.", "usedIn": [] },
+      { "name": "Comunicação", "icon": "communication", "category": "Soft Skills", "description": "Articular eficazmente conceitos técnicos complexos para diversas partes interessadas, garantindo um entendimento claro e alinhamento entre as equipes.", "usedIn": [] },
+      { "name": "Trabalho em Equipe", "icon": "teamwork", "category": "Soft Skills", "description": "Fomentar um ambiente colaborativo e positivo, ouvindo ativamente, fornecendo feedback construtivo e trabalhando juntos para alcançar objetivos compartilhados.", "usedIn": [] },
+      { "name": "Adaptabilidade", "icon": "adaptability", "category": "Soft Skills", "description": "Aprender rapidamente novas tecnologias e ajustar-se às mudanças de requisitos e prioridades do projeto com uma atitude positiva e proativa.", "usedIn": [] },
+      { "name": "Química", "icon": "chemistry", "category": "Sciences", "description": "Sólida base em princípios químicos, aprimorando abordagens analíticas e sistemáticas para a resolução de problemas.", "usedIn": [] },
+      { "name": "Física", "icon": "physics", "category": "Sciences", "description": "Profunda compreensão das leis e conceitos físicos, fomentando uma mentalidade de primeiros princípios para enfrentar desafios complexos de engenharia.", "usedIn": [] }
+    ]
+  },
+  "experience": {
+    "title": "Experiência Profissional",
+    "items": [
+      {
+        "role": "Recepcionista e Supervisor de Turno",
+        "company": "Hospital Urológico de Brasília",
+        "period": "Agosto 2024 - Presente",
+        "description": [
+          "Gerencio as operações de recepção em um ambiente hospitalar de ritmo acelerado, garantindo excelente atendimento ao paciente e fluxo administrativo eficiente.",
+          "Recebi a confiança de responsabilidades de supervisão, supervisionando as operações do turno e coordenando as tarefas da equipe para manter altos padrões de serviço.",
+          "Aprimorei habilidades interpessoais críticas em comunicação, resolução de problemas e liderança sob pressão."
+        ]
+      },
+      {
+        "role": "Analista e Desenvolvedor de Sistemas Estagiário",
+        "company": "Almeida Advogados",
+        "period": "Agosto 2022 - Janeiro 2024",
+        "description": [
+          "Tomei a iniciativa além de um papel típico de estagiário ao instalar, configurar e manter o servidor físico e a infraestrutura de rede do escritório, incluindo VPN e sistemas de segurança (NVR/DVR).",
+          "Gerenciei contas de usuário e permissões no sistema de gestão jurídica AdvWin, garantindo um fluxo de trabalho operacional tranquilo.",
+          "Forneci suporte de TI abrangente, incluindo manutenção de hardware, instalações de SO e solução de problemas para inúmeras máquinas do escritório.",
+          "Contribuí para o desenvolvimento de uma aplicação de software interna, aplicando habilidades de programação e resolução de problemas."
+        ]
+      }
+    ],
+    "nextChapter": {
+      "title": "Pronto para o Próximo Capítulo",
+      "description": "Estou sempre em busca de novos desafios e oportunidades para aplicar minhas habilidades. Se você tem um projeto empolgante ou uma vaga onde posso causar impacto, adoraria me conectar.",
+      "buttonText": "Vamos Construir Juntos"
+    }
+  },
+  "blog": {
+    "title": "Blog e Artigos",
+    "subtitle": "Uma coleção de meus pensamentos e escritos sobre desenvolvimento web, design e tecnologia.",
+    "cardAriaLabel": "Ler artigo: {title}",
+    "viewsAriaLabel": "{count} visualizações",
+    "likesAriaLabel": "{count} curtidas",
+    "readMore": "Ler Artigo",
+    "drawer": {
+      "closeAriaLabel": "Fechar post do blog",
+      "keyTakeaways": "Principais Pontos"
+    },
+    "items": [
+      {
+        "id": "post-1",
+        "title": "Dominando Hooks do React em 2024",
+        "excerpt": "Um mergulho profundo em useState, useEffect e hooks personalizados para otimizar a lógica de seus componentes e construir aplicações mais eficientes.",
+        "content": "## O Poder da Composição\n\nOs Hooks do React mudaram fundamentalmente a forma como escrevemos componentes. Em vez de métodos de ciclo de vida em componentes de classe, agora compomos a lógica usando funções. Essa mudança de paradigma permite uma reutilização incrível e um código mais limpo. **`useState`** é a pedra angular, fornecendo estado aos nossos componentes funcionais, enquanto o **`useEffect`** nos permite lidar com efeitos colaterais como busca de dados ou assinaturas.\n\n* **useState**: Para gerenciar estados simples como toggles, inputs ou contadores. Ele retorna um valor com estado e uma função para atualizá-lo.\n* **useEffect**: Para sincronizar um componente com um sistema externo. Ele é executado após cada renderização por padrão, mas você pode controlar quando ele é executado fornecendo um array de dependências.\n* **useContext**: Para evitar o 'prop drilling' e passar dados profundamente na árvore de componentes.\n\n## Construindo Seus Próprios Hooks\n\nO verdadeiro poder dos Hooks é desbloqueado quando você começa a criar os seus próprios. Um hook personalizado é simplesmente uma função JavaScript cujo nome começa com \"use\" e que pode chamar outros Hooks. Isso permite que você extraia a lógica do componente para funções reutilizáveis.\n\nPor exemplo, você poderia criar um hook `useApi` para lidar com a busca de dados, estados de carregamento e tratamento de erros para qualquer endpoint de API. Ou um hook `useLocalStorage` para persistir o estado no navegador. Esse padrão mantém seus componentes enxutos e focados na renderização, enquanto a lógica complexa é encapsulada de forma organizada e testável em outro lugar. Ao dominar os hooks personalizados, você não está apenas escrevendo React, está construindo uma biblioteca poderosa и reutilizável para suas aplicações."
+      },
+      {
+        "id": "post-2",
+        "title": "Por que C# é um divisor de águas para Indies",
+        "excerpt": "Explorando como o C# capacita desenvolvedores solo e pequenas equipes a construir jogos complexos e performáticos em motores como Godot e Unity.",
+        "content": "## Velocidade, Segurança e um Ecossistema Poderoso\n\nPara desenvolvedores de jogos independentes, escolher a linguagem certa é uma decisão crítica. Embora linguagens como C++ ofereçam o máximo de desempenho, elas geralmente vêm com uma curva de aprendizado acentuada e gerenciamento manual de memória. É aqui que o C# brilha. Ele oferece um ponto de equilíbrio entre desempenho e produtividade. **Sua tipagem forte e coleta de lixo** reduzem significativamente os bugs comuns e permitem que os desenvolvedores se concentrem na lógica do jogo em vez de nos detalhes de baixo nível da memória.\n\nO ecossistema em torno do C# é outra vantagem maciça. Com motores de jogo como **Unity** e **Godot** oferecendo suporte de primeira classe ao C#, os desenvolvedores têm acesso a vastas bibliotecas, uma rica loja de ativos e uma comunidade enorme para suporte e colaboração. Isso significa que você não precisa reinventar a roda para física, renderização ou áudio.\n\n## Além do Motor\n\nA versatilidade do C# se estende além do cliente do jogo. Você pode usar a mesma linguagem para construir seus serviços de backend com ASP.NET, criar ferramentas para seu pipeline de desenvolvimento ou até mesmo desenvolver aplicativos multiplataforma com MAUI. Essa consistência agiliza o processo de desenvolvimento para equipes pequenas.\n\n* **Prototipagem Rápida**: Teste ideias e construa protótipos rapidamente sem se prender a códigos repetitivos complexos.\n* **Escalabilidade**: C# é robusto o suficiente para escalar de um simples jogo de quebra-cabeça para um complexo RPG multiplayer.\n* **Contratação**: É uma linguagem popular e amplamente ensinada, o que facilita a localização de talentos e a colaboração com outros desenvolvedores.\n\nEm essência, o C# capacita os desenvolvedores independentes a competir em pé de igualdade, permitindo-lhes criar jogos polidos, complexos e de alto desempenho sem a sobrecarga de linguagens mais complexas."
+      },
+      {
+        "id": "post-3",
+        "title": "A Arte do Design Centrado no Usuário",
+        "excerpt": "Princípios e práticas para criar experiências de usuário intuitivas e encantadoras que fazem os usuários voltarem sempre.",
+        "content": "## Empatia é o Seu Superpoder\n\nNo seu cerne, o design centrado no usuário é sobre empatia. É sobre sair dos seus próprios sapatos e entrar nos do usuário. Antes de escrever uma única linha de código, devemos perguntar: **Quem é o nosso usuário? Quais são seus objetivos? Quais são seus pontos de dor?** As respostas a essas perguntas devem guiar cada decisão de design e desenvolvimento.\n\nÓtimas experiências de usuário não são acidentais. Elas são o resultado de um processo deliberado que inclui pesquisa de usuário, criação de personas e mapeamento de jornadas de usuário. Esse trabalho de base garante que estamos resolvendo problemas reais para pessoas reais, não apenas construindo recursos que achamos legais.\n\n## Princípios de Design Intuitivo\n\nUma interface deve parecer intuitiva, quase invisível. Os usuários não deveriam ter que pensar em como usá-la; ela deveria simplesmente funcionar. Vários princípios-chave ajudam a alcançar isso:\n\n* **Consistência**: Use padrões, terminologia e layouts consistentes em toda a sua aplicação. Isso torna a interface previsível e fácil de aprender.\n* **Feedback**: O sistema deve sempre fornecer feedback imediato e claro para cada ação do usuário. Seja um clique de botão ou o envio de um formulário, o usuário precisa saber o que está acontecendo.\n* **Hierarquia**: Guie visualmente a atenção do usuário para os elementos mais importantes da página. Use tamanho, cor e espaçamento para criar uma hierarquia visual clara.\n* **Simplicidade**: Como disse Antoine de Saint-Exupéry, \"A perfeição é alcançada, não quando não há mais nada a adicionar, mas quando não há mais nada a retirar.\" Busque a simplicidade e a clareza, removendo tudo o que não for essencial.\n\nAo abraçar esses princípios, podemos ir além da construção de aplicações funcionais e começar a criar experiências verdadeiramente encantadoras que os usuários vão amar."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Meus Projetos",
+    "featuredTitle": "Projetos em Destaque",
+    "otherTitle": "Outros Projetos Notáveis",
+    "clearFilter": "Limpar Filtro",
+    "repoAriaLabel": "Ver repositório de {title} no Github",
+    "liveAriaLabel": "Ver demonstração ao vivo de {title}",
+    "drawer": {
+      "closeAriaLabel": "Fechar detalhes do projeto",
+      "challengesTitle": "Desafios Técnicos e Soluções",
+      "outcomeTitle": "Resultado e Impacto"
+    },
+    "modal": {
+      "closeAriaLabel": "Fechar modal de projeto em destaque"
+    },
+    "featuredProjects": [
+      {
+        "title": "Odyssey: Motor de Ray Tracing em Tempo Real",
+        "description": "Um motor de ray tracing de alta performance, construído do zero em C++ e Vulkan. Simula física de luz realista, suportando sombras suaves, reflexos e iluminação global, otimizado para arquiteturas de GPU modernas.",
+        "detailedDescription": "Odyssey é um projeto de pesquisa pessoal que mergulha fundo no mundo dos gráficos de computador. O motor é construído do zero, proporcionando controle total sobre o pipeline de renderização. Ele usa a API Vulkan para comunicação de baixa sobrecarga com a GPU, permitindo alta performance. O núcleo do motor é um algoritmo de path tracing que traça raios de luz recursivamente para produzir imagens fotorrealistas.",
+        "challenges": "O principal desafio foi dominar as complexidades da API Vulkan e os conceitos matemáticos por trás do ray tracing. Implementar recursos como uma Bounding Volume Hierarchy (BVH) para testes eficientes de interseção raio-objeto e desenvolver shaders em GLSL para materiais e cálculos de iluminação foram obstáculos significativos que exigiram pesquisa e depuração extensivas.",
+        "outcome": "Este projeto foi uma experiência de aprendizado incrível, solidificando meu entendimento de programação gráfica de baixo nível, arquitetura de GPU e C++ avançado. Embora seja um esforço contínuo, o motor já pode renderizar cenas complexas com iluminação realista, servindo como um poderoso testemunho de minhas capacidades de programação de sistemas.",
+        "status": "Pesquisa em Andamento",
+        "isWIP": false,
+        "tech": ["C++", "Vulkan", "GLSL", "Álgebra Linear", "Física"],
+        "imageUrl": "https://picsum.photos/seed/raytracer/1200/800",
+        "repoUrl": "#"
+      },
+      {
+        "title": "Projeto Quimera: Motor de Jogo Voxel",
+        "description": "Um motor de jogo customizado focado na geração procedural de mundos voxel infinitos. Combina C++ de alta performance para o núcleo com uma camada de scripting em C# para a lógica do jogo, apresentando geração dinâmica de malha e um motor de física personalizado.",
+        "detailedDescription": "O Projeto Quimera é um motor de jogo sob medida projetado especificamente para criar vastos mundos baseados em voxels gerados proceduralmente, semelhante ao Minecraft, mas com foco em técnicas de renderização personalizadas. O núcleo do motor é escrito em C++ para desempenho máximo no gerenciamento de chunks e geração de malhas. Uma API de script em C# é exposta para permitir a fácil implementação da lógica do jogo, itens e comportamentos de personagens.",
+        "challenges": "Otimizar o algoritmo de 'greedy meshing' para reduzir o número de vértices ao renderizar grandes blocos de voxels foi um grande desafio. Outro foi projetar uma arquitetura flexível de Entity Component System (ECS) que pudesse gerenciar eficientemente milhares de entidades no jogo. A interface entre C++ e C# exigiu um gerenciamento de memória cuidadoso e uma camada de comunicação bem definida.",
+        "outcome": "O resultado é um motor de alta performance capaz de renderizar mundos massivos e dinâmicos em tempo real. O protótipo ao vivo demonstra exploração e interação suaves no mundo. Este projeto mostra minha capacidade de arquitetar sistemas complexos e multilíngues e resolver problemas desafiadores no desenvolvimento de motores de jogos.",
+        "status": "Protótipo Funcional",
+        "isWIP": false,
+        "tech": ["C++", "C#", "Algoritmos Voxel", "OpenGL", "Entity Component System"],
+        "imageUrl": "https://picsum.photos/seed/voxelengine/1200/800",
+        "liveUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "title": "Aether: Rede de Armazenamento Descentralizada",
+        "description": "Uma exploração ambiciosa na construção de uma rede de armazenamento criptografada e peer-to-peer usando Rust. Foca em integridade de dados, tolerância a falhas e segurança criptográfica, visando uma alternativa verdadeiramente descentralizada ao armazenamento em nuvem.",
+        "detailedDescription": "Aether é uma prova de conceito para uma rede de armazenamento descentralizada onde os usuários contribuem com seu espaço em disco não utilizado para formar uma nuvem resiliente e peer-to-peer. Os arquivos são criptografados, divididos em pedaços e distribuídos pela rede. Construído em Rust, ele aproveita os recursos de segurança e desempenho da linguagem para criar um sistema seguro и confiável.",
+        "challenges": "Implementar um mecanismo confiável de descoberta de pares usando uma Tabela de Hash Distribuída (DHT) foi um desafio de rede complexo. Garantir a integridade e redundância dos dados por meio de codificação de rasura e provas criptográficas de armazenamento também foi um foco principal. Gerenciar operações assíncronas em Rust usando async/await para lidar com muitas conexões de rede simultâneas foi crítico para o desempenho.",
+        "outcome": "O projeto está atualmente em fase de desenvolvimento, mas já implementou com sucesso as funcionalidades principais de fragmentação de arquivos, criptografia e transferência de dados peer-to-peer. Ele serve como um mergulho profundo em sistemas distribuídos, redes avançadas e criptografia aplicada, demonstrando um forte domínio da programação de sistemas moderna com Rust.",
+        "status": "Em Desenvolvimento",
+        "isWIP": true,
+        "tech": ["Rust", "Redes P2P", "Criptografia", "Async/.await"],
+        "imageUrl": "https://picsum.photos/seed/decentralized/1200/800",
+        "repoUrl": "#"
+      }
+    ],
+    "items": [
+      {
+        "id": "nebula",
+        "title": "Projeto Nebulosa",
+        "description": "Uma ferramenta de visualização de dados interativa para dados astronômicos, construída com D3.js e React.",
+        "detailedDescription": "O Projeto Nebulosa é uma aplicação web que fornece uma visualização interativa e explorável do catálogo estelar Hipparcos. Os usuários podem mover, ampliar e filtrar um mapa 2D da galáxia, clicando em estrelas individuais para obter informações detalhadas. Cálculos de performance crítica poderiam ser descarregados para um backend em C++.",
+        "challenges": "O principal desafio técnico foi renderizar mais de 100.000 pontos de dados de forma fluida em um navegador web. Resolvi isso usando HTML5 Canvas para a renderização em vez de SVG, o que melhorou significativamente o desempenho. Também implementei uma estratégia inteligente de cache de dados e carregamento preguiçoso para gerenciar o grande conjunto de dados de forma eficiente.",
+        "outcome": "O projeto foi destaque em um popular blog de ciência de dados e é usado por astrônomos amadores como ferramenta de aprendizado. Ele demonstra com sucesso como conjuntos de dados complexos podem se tornar acessíveis e envolventes por meio de uma UX bem pensada e uma arquitetura de frontend performática.",
+        "tags": ["React", "D3.js", "TypeScript", "C++", "API"]
+      },
+      {
+        "id": "ecommerce",
+        "title": "Plataforma de E-Commerce",
+        "description": "Uma loja online completa com integração Stripe e um painel de administração personalizado.",
+        "detailedDescription": "Esta é uma plataforma de e-commerce full-stack construída do zero, projetada para ser robusta, escalável e fácil de gerenciar. Possui uma experiência de compra completa, desde a navegação e filtragem de produtos até um processo de checkout seguro com a API da Stripe. Também inclui um painel de administração personalizado para gerenciar produtos, pedidos e clientes.",
+        "challenges": "Integrar a API da Stripe para processamento seguro de pagamentos foi um desafio chave, exigindo o manuseio cuidadoso de dados sensíveis e a implementação de webhooks. No backend, projetar um esquema de banco de dados escalável no PostgreSQL e construir a lógica de negócios com C# e ASP.NET para robustez foi uma tarefa complexa.",
+        "outcome": "A plataforma serve como uma demonstração poderosa das capacidades de desenvolvimento full-stack. É um modelo pronto para produção que pode ser personalizado para diversas necessidades de e-commerce, mostrando expertise tanto em tecnologias de frontend (React) quanto de backend (C#, PostgreSQL).",
+        "tags": ["React", "C#", "PostgreSQL", "Stripe", ".NET"]
+      },
+      {
+        "id": "taskapp",
+        "title": "App de Gerenciamento de Tarefas",
+        "description": "Um aplicativo de lista de tarefas elegante e intuitivo com recursos de colaboração em tempo real.",
+        "detailedDescription": "Uma moderna aplicação de gerenciamento de tarefas projetada para colaboração em equipe. Permite que os usuários criem projetos, atribuam tarefas, definam prazos e se comuniquem com os membros da equipe em tempo real. A interface do usuário é limpa, intuitiva e altamente responsiva, construída com React e Tailwind CSS.",
+        "challenges": "O principal desafio foi implementar a sincronização de dados em tempo real entre múltiplos clientes. Utilizei o banco de dados Firestore do Firebase e seus ouvintes em tempo real para garantir que qualquer alteração feita por um usuário seja instantaneamente refletida para todos os outros membros da equipe, criando uma experiencia colaborativa fluida.",
+        "outcome": "A aplicação é um testemunho da construção de aplicativos web modernos e em tempo real. É usada internamente por uma pequena agência de design para gerenciar seus fluxos de trabalho de projeto e melhorou significativamente a produtividade e a organização da equipe.",
+        "tags": ["React", "Firebase", "Tailwind CSS", "Auth"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "description": "Estou sempre animado para discutir novas ideias. Preencha o formulário abaixo e entrarei em contato com você o mais rápido possível!",
+    "form": {
+      "name": "Seu Nome",
+      "email": "Seu Email",
+      "message": "Sua Mensagem",
+      "submit": "Enviar Mensagem",
+      "submitting": "Enviando...",
+      "error": "Desculpe, algo deu errado. Por favor, tente novamente mais tarde."
+    }
+  },
+  "footer": {
+    "text": "Projetado e Construído por Rennan Lira",
+    "githubAriaLabel": "Visitar meu perfil no Github",
+    "linkedinAriaLabel": "Visitar meu perfil no LinkedIn",
+    "twitterAriaLabel": "Visitar meu perfil no Twitter"
+  },
+  "commandPalette": {
+    "title": "Paleta de Comandos",
+    "placeholder": "Digite um comando ou pesquise...",
+    "noResults": "Nenhum resultado encontrado.",
+    "footer": "Navegue com ↑↓ e selecione com ↵",
+    "actions": {
+      "navigateTo": "Navegar para",
+      "toggleTheme": "Alternar tema",
+      "changeLanguageTo": "Mudar idioma para",
+      "visitGithub": "Visitar perfil do Github",
+      "visitLinkedin": "Visitar perfil do Linkedin"
+    }
+  },
+  "chatbot": {
+    "header": "Assistente de IA",
+    "interviewHeader": "Modo Entrevista",
+    "placeholder": "Pergunte-me qualquer coisa...",
+    "thinking": "Pensando...",
+    "initialMessage": "Olá! Eu sou o assistente de IA do Rennan. Pergunte-me qualquer coisa sobre o currículo dele ou apenas diga oi!",
+    "errorConnect": "Desculpe, estou com problemas para me conectar no momento.",
+    "errorApiKey": "Desculpe, o chatbot não está configurado. A API_KEY está faltando.",
+    "errorSend": "Opa! Algo deu errado. Por favor, tente novamente.",
+    "systemInstruction": "Você é um assistente de chatbot prestativo e amigável para o site de currículo pessoal de Rennan Lira. Seu objetivo é responder a perguntas sobre as habilidades, experiência e projetos de Rennan com base nas informações fornecidas. Você também pode participar de conversas gerais e amigáveis. Seja profissional, mas acessível e mantenha suas respostas concisas. Se uma pergunta estiver fora do escopo do currículo ou da conversa geral, afirme educadamente que seu principal objetivo é auxiliar com informações relacionadas a Rennan Lira. Aqui está o contexto sobre Rennan Lira: {cvContext}",
+    "startInterview": "Iniciar Entrevista Simulada",
+    "exitInterview": "Sair do Modo de Entrevista",
+    "interviewInitialMessage": "Ótimo! Agora atuarei como um recrutador técnico. Vamos começar a entrevista. \n\nPrimeira pergunta: **Você pode me falar um pouco sobre você e sua jornada na engenharia de software?**",
+    "interviewerSystemInstruction": "Você é um recrutador técnico especialista conduzindo uma entrevista simulada com Rennan Lira. Seu objetivo é fazer perguntas perspicazes com base no currículo dele para avaliar suas habilidades, experiência e capacidade de resolver problemas. Use o contexto fornecido para fazer perguntas específicas e abertas sobre seus projetos (como 'Projeto Nebulosa' ou a 'Plataforma de E-Commerce') e suas funções (como na 'Almeida Advogados'). Faça apenas uma pergunta de cada vez e espere pela resposta do usuário antes de prosseguir. Mantenha um tom profissional, amigável e encorajador. Comece a conversa com uma pergunta geral de abertura. Aqui está o contexto sobre Rennan Lira: {cvContext}"
+  }
+}
